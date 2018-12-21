@@ -59,8 +59,8 @@ It would be an open bookdown repo so the community can have a complete and free 
     - Talk about NumericVector, NumericMatrix and friends
     - Abstract over underlying stuff like StoragePolicy class, etc
   - C++ includes
-    - <vector>
-    - <algorithm>
+    - vector
+    - algorithm
   - Namespaces
     - Could compare to packages
     - using namespace Rcpp

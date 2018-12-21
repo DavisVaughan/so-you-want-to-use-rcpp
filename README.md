@@ -71,8 +71,8 @@ and free guide for getting started.
           - Talk about NumericVector, NumericMatrix and friends
           - Abstract over underlying stuff like StoragePolicy class, etc
       - C++ includes
-          - <vector>
-          - <algorithm>
+          - vector
+          - algorithm
       - Namespaces
           - Could compare to packages
           - using namespace Rcpp
