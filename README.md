@@ -35,7 +35,7 @@ intermediate experience with R, and teach everything from:
   - Talk about how as\<\>() and wrap() help with automatic argument
     conversion
   - Using custom types in an R package, and how
-    `inst/include/packagename.hpp` is needed so they can be found in
+    `inst/include/packagename_types.h` is needed so they can be found in
     `RcppExports.cpp`
   - When would I use C++11 and C++14?
   - How would I tell R I need to use C++11? (SystemRequirements /
@@ -127,3 +127,5 @@ and free guide for getting started.
           - SEXP types (revisited)
           - TYPEOF and switch() statements
       - Custom namespaces
+      - Reference material (links to as many vignettes / presentations
+        as I can find)

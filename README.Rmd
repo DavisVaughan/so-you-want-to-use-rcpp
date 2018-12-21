@@ -30,7 +30,7 @@ It would assume that the user has little to no experience with C++ but intermedi
 - SEXP type variants
 - Custom as<>() and wrap()
 - Talk about how as<>() and wrap() help with automatic argument conversion
-- Using custom types in an R package, and how `inst/include/packagename.hpp` is needed so they can be found in `RcppExports.cpp`
+- Using custom types in an R package, and how `inst/include/packagename_types.h` is needed so they can be found in `RcppExports.cpp`
 - When would I use C++11 and C++14?
 - How would I tell R I need to use C++11? (SystemRequirements / Makevars)
 - What does a Makevars file do?
@@ -114,3 +114,4 @@ It would be an open bookdown repo so the community can have a complete and free 
     - SEXP types (revisited)
     - TYPEOF and switch() statements
   - Custom namespaces
+  - Reference material (links to as many vignettes / presentations as I can find)
