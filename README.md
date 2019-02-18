@@ -55,6 +55,9 @@ and free guide for getting started.
 
 # Outline
 
+  - Introduction
+      - Practical introduction, for R developers everywhere.
+      - Focusing on the “What I Wish I Knew” points
   - Motivation
       - Why use Rcpp?
       - A speed example over base R
@@ -66,6 +69,7 @@ and free guide for getting started.
           - Write an R function first
           - Then compare to C++ implementation
           - Rcpp::sourceCpp()
+          - RMarkdown code block
       - Rcpp data types
           - Talk about SEXP types
           - Talk about NumericVector, NumericMatrix and friends
@@ -84,6 +88,10 @@ and free guide for getting started.
       - Rewrite in C++, hopefully it looks similar to R
       - Potentially a good place for \[\[Rcpp::depends\]\]
       - And \[\[Rcpp::plugins\]\]
+  - R package Whole Game
+      - Full R package with C++ walkthrough (Inspired by r-pkgs reboot
+        Whole Game)
+      - R package with embedded library walkthrough?
   - Creating an R package with Rcpp
       - A recap of creating an R package
       - The `src/` directory
